@@ -1,0 +1,58 @@
+<div class="container"> 
+ <div class="row">
+    <div class="col-12">
+      <p appAdvanceCss  [oncolor]="'orange'">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores sit deserunt laboriosam sunt! Et 
+        nihil tenetur beatae, harum architecto, eius fugiat excepturi sapiente 
+        quod aliquid aut suscipit quia distinctio tempora.
+      </p>
+    </div>
+    <hr>
+    <p BasicCss>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur cupiditate ipsam 
+      voluptatum doloribus unde ullam nemo, id natus blanditiis! Consectetur possimus soluta error minima
+       consequatur laborum quasi mollitia veniam in!
+    </p>
+    <hr>
+    <p [class.bg-primary]="flag">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+       Aperiam quas ea deleniti reiciendis placeat dolore nulla quo atque,
+        provident minima? Sapiente quisquam est illum accusamus
+       quam, adipisci consequatur molestias maiores!
+    </p>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <input type="text" appLowercase class="form-control">
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <input type="text" placeholder="Enter Card Details" appCreditcard class="form-control">
+        <p class="text-danger text-right d-none">
+          Enter Valid Value*
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <input type="text" placeholder="Enter Your Aadhar ID" appAadharCard class="form-control">
+         <p class="text-danger text-right d-none">
+          Enter Valid Value*
+        </p> 
+      </div>
+    </div>
+  </div>
+</div>
